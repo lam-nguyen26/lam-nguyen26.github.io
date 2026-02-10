@@ -3,69 +3,80 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Your Name | Portfolio</title>
+    <title>Your Name | Software Developer</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-    <h1>Your Name</h1>
-    <p>Computer Science Student • DevOps • Full Stack</p>
+<header class="hero">
+    <div class="hero-content">
+        <h1>Your Name</h1>
+        <p>Software Developer • DevOps • Backend Systems</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
 </header>
 
-<nav>
+<nav class="navbar">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
+<section id="about" class="section">
     <h2>About Me</h2>
     <p>
-        I am a Computer Science student passionate about DevOps, backend systems,
-        and building reliable software. I enjoy working with Linux, CI/CD pipelines,
-        and full-stack development.
+        I am a Computer Science student focused on DevOps practices, backend systems,
+        and building reliable, scalable software. I enjoy working with Linux, CI/CD pipelines,
+        APIs, and full-stack applications that solve real problems.
     </p>
 </section>
 
-<section id="projects">
+<section id="projects" class="section">
     <h2>Projects</h2>
 
-    <div class="card">
-        <h3>Committee Management System</h3>
-        <p>Full-stack web app using MongoDB, C#, and REST APIs for managing committee members.</p>
-        <a href="https://github.com/yourusername/project">GitHub Repo</a>
-    </div>
+    <div class="projects-grid">
 
-    <div class="card">
-        <h3>Linux Multi-Process File Analyzer</h3>
-        <p>Program using fork, exec, and pipes to analyze binary files and compute min/max values.</p>
-        <a href="https://github.com/yourusername/project">GitHub Repo</a>
-    </div>
+        <div class="card">
+            <h3>Committee Management System</h3>
+            <p>Full-stack application using MongoDB, C#, and REST APIs to manage committee members and workflows.</p>
+            <a href="https://github.com/yourusername/project" target="_blank">GitHub Repository →</a>
+        </div>
 
-    <div class="card">
-        <h3>DevOps CI/CD Pipeline Demo</h3>
-        <p>GitHub Actions pipeline that builds, tests, and deploys a sample application automatically.</p>
-        <a href="https://github.com/yourusername/project">GitHub Repo</a>
+        <div class="card">
+            <h3>Linux Multi-Process File Analyzer</h3>
+            <p>Program using fork, exec, and pipes to process binary files and compute min/max values concurrently.</p>
+            <a href="https://github.com/yourusername/project" target="_blank">GitHub Repository →</a>
+        </div>
+
+        <div class="card">
+            <h3>CI/CD Pipeline Demo</h3>
+            <p>GitHub Actions pipeline that automatically builds, tests, and deploys a sample application.</p>
+            <a href="https://github.com/yourusername/project" target="_blank">GitHub Repository →</a>
+        </div>
+
     </div>
 </section>
 
-<section id="skills">
+<section id="skills" class="section">
     <h2>Skills</h2>
-    <ul>
-        <li>Linux, Bash, Git</li>
-        <li>C#, .NET, MongoDB</li>
-        <li>HTML, CSS, JavaScript</li>
-        <li>CI/CD, GitHub Actions</li>
-        <li>REST APIs</li>
-    </ul>
+    <div class="skills-grid">
+        <span>Linux</span>
+        <span>Bash</span>
+        <span>Git</span>
+        <span>C# / .NET</span>
+        <span>MongoDB</span>
+        <span>REST APIs</span>
+        <span>HTML / CSS / JS</span>
+        <span>CI/CD</span>
+        <span>GitHub Actions</span>
+    </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="section">
     <h2>Contact</h2>
     <p>Email: your@email.com</p>
-    <p>GitHub: github.com/yourusername</p>
+    <p>GitHub: https://github.com/yourusername</p>
 </section>
 
 <footer>
